@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+
+.container1_Term {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem; 
+    box-sizing: border-box;
+}
+
+.container1_Term h1 {
+    color: #2391fb;
+    margin: 2rem 0 1rem 4rem;
+    font-weight: 500;
+    font-family: "Lato",sans-serif;
+}
+
+[class^="col"] h2 {
+    margin: 2rem 0 13px 2rem;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+}
+
+[class^="col"] p {
+    width: 80%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins';
+}
+
+.col10_Term p {
+    padding-bottom: 3rem;
+}
+
+/* =====================
+   RESPONSIVE MEDIA QUERIES
+======================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .container1_Term h1 {
+        margin-left: 2rem;
+    }
+
+    [class^="col"] p,
+    [class^="col"] h2 {
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .container1_Term h1 {
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+
+    [class^="col"] p,
+    [class^="col"] h2 {
+        margin-left: 1rem;
+        width: 95%;
+        font-size: 1rem;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .container1_Term h1 {
+        font-size: 1.5rem;
+    }
+
+    [class^="col"] h2 {
+        font-size: 1.1rem;
+    }
+
+    [class^="col"] p {
+        font-size: 0.95rem;
+    }
+}

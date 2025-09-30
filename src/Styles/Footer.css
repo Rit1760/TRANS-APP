@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+.container1_footer {
+  width: 100%;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+  .col5_footer p{
+   padding-top: 30px;
+  font-family: "Poppins";
+  color: #fff;
+  font-weight: 700;
+  }
+.row1_footer, .row2_footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.row1_footer {
+    border-top: 1px solid #c1bcbc;
+    padding-bottom: 15px;
+}
+
+.col1_footer, .col2_footer, .col3_footer,
+.col4_footer, .col5_footer, .col6_footer {
+  flex: 1 1 200px;
+  padding: 10px;
+  min-width: 200px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+} 
+
+ .col1_footer h2, .col2_footer h2, .col3_footer h2
+ {
+  color: white;
+  margin: 10px 0;
+  padding-left: 42px;
+  font-weight: 500;
+  font-family: 'Lato',sans-serif;
+}
+.col4_footer img{
+  color: white;
+  margin: 10px 0;
+  padding-left: 42px;
+  font-weight: 500;
+  font-family: 'Lato',sans-serif;
+}
+ .col6_footer h4{
+    color: white;
+  margin: 10px 0;
+  padding-left: 42px;
+  font-weight: 500;
+  font-family: 'Lato',sans-serif;
+  font-size: 25px;
+ }
+
+.col1_footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.col2_footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.col3_footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.col6_footer a{
+  font-family: 'Poppins';
+}
+.col6_footer p:hover{
+  cursor: pointer;
+  color: #2391fb;
+}
+
+
+
+.container1_footer h3 {
+  text-align: center;
+  /* border-top: 1px solid #555; */
+  padding-top: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ccc;
+  font-family: 'Lato',sans-serif;
+}
+
+.col1_footer:hover,
+.col2_footer:hover,
+.col3_footer:hover,
+.col4_footer:hover,
+.col5_footer:hover,
+.col6_footer:hover {
+  background-color: #111;
+}
+
+/* Social Icons Row */
+.row3_footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.row3_footer i {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.row3_footer i:hover {
+  color: #2391fb;
+  transform: scale(1.2);
+}
+
+/* ========== Responsive Styles ========== */
+
+/* Tablets (iPads, Surface, Galaxy Tab) */
+@media screen and (max-width: 1024px) {
+  .row1_footer, .row2_footer {
+    justify-content: space-around;
+    gap: 15px;
+  }
+
+  .col1_footer, .col2_footer, .col3_footer,
+  .col4_footer, .col5_footer, .col6_footer {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+/* Mobile Devices (including iPhones) */
+@media screen and (max-width: 768px) {
+  .row1_footer, .row2_footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .col1_footer, .col2_footer, .col3_footer,
+  .col4_footer, .col5_footer, .col6_footer {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+  }
+
+
+  .row3_footer i {
+    font-size: 22px;
+  }
+
+  .col1_footer h2, .col2_footer h2, .col3_footer h2,
+  .col4_footer h2, .col5_footer h4, .col6_footer h4 {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/* Small Mobile (iPhone SE, older Androids) */
+@media screen and (max-width: 480px) {
+  .container1_footer {
+    padding: 25px 15px;
+  }
+
+  .row3_footer i {
+    font-size: 20px;
+  }
+
+  .container1_footer h3 {
+    font-size: 12px;
+  }
+
+  .col1_footer, .col2_footer, .col3_footer,
+  .col4_footer, .col5_footer, .col6_footer {
+    padding: 8px 12px;
+  }
+}
+
+/* Extra Small Mobile (very narrow devices) */
+@media screen and (max-width: 360px) {
+  .row3_footer i {
+    font-size: 18px;
+  }
+
+  .col1_footer, .col2_footer, .col3_footer,
+  .col4_footer, .col5_footer, .col6_footer {
+    padding: 6px 10px;
+  }
+}
+@media (min-width:375px) and (max-width:667px){
+  .col4_footer{
+    margin-left: -40px;
+  }
+}
+@media (min-width:360px) and (max-width:780px){
+  .col4_footer{
+    margin-left: -40px;
+  }
+}
+@media (min-width:344px) and (max-width:882px){
+    .col4_footer{
+    margin-left: -40px;
+  }
+}
