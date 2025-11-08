@@ -68,13 +68,13 @@ export default function About() {
   <div className="container1_About">
     <div className="row1_About">
       <div className="about-column1 about-column">
-        <Image src="/images/Brijesh.png" width={299} height={405} alt="Arnav" />
+        <Image src="/images/Brijesh1.jpg" width={299} height={405} alt="Arnav" />
         <h3>Brijesh Singh Malik</h3>
         <h4>Chief Executive Officer (CEO)</h4>
         <a href='#' className="read-more" onClick={handleReadMoreClick}>Read more</a>
       </div>
       <div className="about-column2 about-column">
-        <Image src="/images/devesh.png" width={290} height={390} alt="devesh" />
+        <Image src="/images/devesh1.jpg" width={290} height={390} alt="devesh" />
         <h3>Devesh Kr Jaiswal</h3>
         <h4>CTO & COO</h4>
         <a href='#' className="read-more" onClick={handleReadMoreClick1}>Read more</a>
@@ -87,7 +87,7 @@ export default function About() {
     <div className='cont1_About_Popup'>
       <div className='row1_About_Popup'>
         <div className='col1_About_Popup'>
-           <Image src="/images/Brijesh.png" width={299} height={405} alt="Arnav" />
+           <Image src="/images/Brijesh1.jpg" width={299} height={405} alt="Arnav" />
         </div>
         <div className='col2_About_Popup'>
        <h3>Brijesh Singh Malik</h3><Link href="https://www.linkedin.com/in/brijesh-singh-malik-5356011b/?originalSubdomain=de"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px",color:"#1f90ff",marginBottom:"10px",cursor:"pointer"}}/></Link>
@@ -107,7 +107,7 @@ export default function About() {
     <div className='cont2_About_Popup'>
       <div className='row3_About_Popup'>
         <div className='col4_About_Popup'>
-          <Image src="/images/devesh.png" width={290} height={390} alt="devesh" />
+          <Image src="/images/devesh1.jpg" width={290} height={390} alt="devesh" />
         </div>
         <div className='col5_About_Popup'>
        <h3>Devesh Kr Jaiswal</h3><Link href="https://www.linkedin.com/in/devesh-jaiswal-abab9925/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px",color:"#1f90ff",marginBottom:"10px",cursor:"pointer"}}/></Link>

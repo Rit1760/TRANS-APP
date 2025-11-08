@@ -164,6 +164,27 @@ text-align: left;
 
 /* Desktops (≥ 1024px) */
 @media screen and (min-width: 1024px) {
+
+    .row1_Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .col1_Header {
+    flex: 0 0 auto; 
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .col2_Header {
+    flex: 1;
+    text-align: right;
+  }
+
+  .col2_Header ul {
+    justify-content: flex-end;
+  }
   .col1_Header h2 {
     font-size: 2.2rem;
   }

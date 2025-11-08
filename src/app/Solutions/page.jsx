@@ -53,7 +53,8 @@ export default function Solutions(){
         <div className="container1_Solutions">
             <div className="row1_Solutions">
                 <div className="col1_Solutions">
-                    <Image src="/images/Advance-Lightning.png" width={250} height={277} alt="one1"/>
+                    {/* <Image src="/images/Advance-Lightning.png" width={250} height={277} alt="one1"/> */}
+                    <Image src="/images/ALS11.jpeg" width={250} height={277} alt="one1"/>
                     <h3>Advance Earthing Solutions</h3>
                     <Link href="./AES">Read more</Link>
                 </div>
