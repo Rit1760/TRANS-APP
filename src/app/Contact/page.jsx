@@ -4,38 +4,38 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../../Styles/Contact.css";
 import Head from "next/head";
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    first_name:"",
-    last_name:"",
-    email:"",
-    phone:"",
-    message:"",
-  });
+  // const [formData, setFormData] = useState({
+  //   first_name:"",
+  //   last_name:"",
+  //   email:"",
+  //   phone:"",
+  //   message:"",
+  // });
 
 
-    const handleChange = (e) =>
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  //   const handleChange = (e) =>
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const res = await fetch("/api/Contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   const res = await fetch("/api/Contact", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/json" },
+  //     body: JSON.stringify(formData),
+  //   });
 
-    const data = await res.json();
-    if (res.ok) {
-      localStorage.setItem("token", data.token);
-      alert("Login Successful!");
-      window.location.href = "/";
-    } else {
-      alert(data.error);
-    }
-  };
+  //   const data = await res.json();
+  //   if (res.ok) {
+  //     localStorage.setItem("token", data.token);
+  //     alert("Login Successful!");
+  //     window.location.href = "/";
+  //   } else {
+  //     alert(data.error);
+  //   }
+  // };
 
 
 
@@ -141,8 +141,8 @@ export default function Contact() {
                   id="first_name"
                   name="first_name"
                   placeholder="Enter your first name"
-                  value={formData.first_name} 
-                  onChange={handleChange}
+                  // value={formData.first_name} 
+                  // onChange={handleChange}
                   required
                 />
 
@@ -152,8 +152,8 @@ export default function Contact() {
                   id="last_name"
                   name="last_name"
                   placeholder="Enter your last name"
-                  value={formData.last_name} 
-                  onChange={handleChange}
+                  // value={formData.last_name} 
+                  // onChange={handleChange}
                   required
                 />
 
@@ -163,8 +163,8 @@ export default function Contact() {
                   id="email"
                   name="email"
                   placeholder="Enter your email"
-                  value={formData.email} 
-                  onChange={handleChange}
+                  // value={formData.email} 
+                  // onChange={handleChange}
                   required
                 />
 
@@ -174,8 +174,8 @@ export default function Contact() {
                   id="phone"
                   name="phone"
                   placeholder="Enter your phone number"
-                  value={formData.phone} 
-                  onChange={handleChange}
+                  // value={formData.phone} 
+                  // onChange={handleChange}
                 />
 
                 <label htmlFor="message">Message</label>
@@ -183,8 +183,8 @@ export default function Contact() {
                   id="message"
                   name="message"
                   placeholder="Type your message here..."
-                  value={formData.message} 
-                  onChange={handleChange}
+                  // value={formData.message} 
+                  // onChange={handleChange}
                 >
                 </textarea>
 
