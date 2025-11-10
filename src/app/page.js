@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
-import '../styles/Home.css';
+import '../Styles/Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquare } from '@fortawesome/free-regular-svg-icons';     
 import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
