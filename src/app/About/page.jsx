@@ -87,7 +87,7 @@ export default function About() {
     <div className='cont1_About_Popup'>
       <div className='row1_About_Popup'>
         <div className='col1_About_Popup'>
-           <Image src="/images/Brijesh1.jpg" width={299} height={405} alt="Arnav" />
+           <Image src="/images/Brijesh1.jpg" width={299} height={405} alt="Brijesh1" />
         </div>
         <div className='col2_About_Popup'>
        <h3>Brijesh Singh Malik</h3><Link href="https://www.linkedin.com/in/brijesh-singh-malik-5356011b/?originalSubdomain=de"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px",color:"#1f90ff",marginBottom:"10px",cursor:"pointer"}}/></Link>
