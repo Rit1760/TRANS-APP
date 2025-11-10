@@ -134,7 +134,7 @@ export default function Contact() {
 
           <div className="row5_contact">
             <div className="col7_contact">
-              <form action="#" method="post" onSubmit={handleSubmit}>
+              <form action="#" method="post" >
                 <label htmlFor="first-name">First Name</label>
                 <input
                   type="text"
@@ -143,7 +143,7 @@ export default function Contact() {
                   placeholder="Enter your first name"
                   // value={formData.first_name} 
                   // onChange={handleChange}
-                  required
+                  // required
                 />
 
                 <label htmlFor="last-name">Last Name</label>
@@ -154,7 +154,7 @@ export default function Contact() {
                   placeholder="Enter your last name"
                   // value={formData.last_name} 
                   // onChange={handleChange}
-                  required
+                  // required
                 />
 
                 <label htmlFor="email">Email</label>
@@ -165,7 +165,7 @@ export default function Contact() {
                   placeholder="Enter your email"
                   // value={formData.email} 
                   // onChange={handleChange}
-                  required
+                  // required
                 />
 
                 <label htmlFor="phone">Phone</label>
