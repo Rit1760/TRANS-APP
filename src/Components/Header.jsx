@@ -17,7 +17,7 @@ export default function Header() {
   <div className="container1_Header">
     <div className="row1_Header">
       <div className="col1_Header">
-       <img src="../images/Transbolt-logo.png" width={230} alt="Transbolt-logo" />
+       <img src="../images/transbolt-logo.png" width={230} alt="transbolt-logo" />
       </div>
 
 
