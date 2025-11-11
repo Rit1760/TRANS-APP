@@ -71,7 +71,7 @@ export default function Solutions(){
                     <Link href="./SOV">Read more</Link>
             </div>
             <div className="col4_Solutions">
-                    <Image src="/images/solar-EPC.png" width={250} height={277} alt="four4"/>
+                    <Image src="/images/Solar-EPC.png" width={250} height={277} alt="four4"/>
                     <h3>Solar EPC</h3>
                     <Link href="./SVS">Read more</Link>
             </div>
