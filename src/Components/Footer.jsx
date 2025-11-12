@@ -50,7 +50,7 @@ export default function Footer() {
     href="tel:+919876543210"
     style={{ color: 'white', textDecoration: 'none' }}
   >
-            <p> <FontAwesomeIcon icon={faPhone}  style={{ color: "#2391fb", cursor: "pointer", marginRight: "1rem" }}/><b> Phone</b>: +91 9876543210</p>
+            {/* <p> <FontAwesomeIcon icon={faPhone}  style={{ color: "#2391fb", cursor: "pointer", marginRight: "1rem" }}/><b> Phone</b>: +91 9876543210</p> */}
          </a>
             <a
           // href="https://www.google.com/maps?q=870-B1,+Spaze+ITech+Park,+Sector+49,+Sohna+Road,+Gurgaon,+122018"
