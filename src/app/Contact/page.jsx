@@ -115,7 +115,7 @@ export default function Contact() {
               <p>
                 <a href="mailto:example@example.com">info@transbolt.com</a>
                 <br />
-                <a href="mailto:example@example.com">example@example.com</a>
+                {/* <a href="mailto:example@example.com">example@example.com</a> */}
               </p>
             </div>
           </div>
